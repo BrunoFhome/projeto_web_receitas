@@ -4,7 +4,7 @@ import '../services/meal_service.dart';
 import 'detail_screen.dart';
 import 'search_screen.dart';
 import 'favorites_screen.dart';
-import 'profile_screen.dart'; // Add this import
+import 'profile_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -28,20 +28,20 @@ class _HomeScreenState extends State<HomeScreen> {
       _currentIndex = index;
     });
     
-    // Handle navigation based on index
+    
     switch (index) {
       case 0:
-        // Already on home screen
+       
         break;
       case 1:
-        // Navigate to favorites
+       
         Navigator.push(
           context,
           MaterialPageRoute(builder: (context) => const FavoritesScreen()),
         );
         break;
       case 2:
-        // Navigate to profile
+        
         Navigator.push(
           context,
           MaterialPageRoute(builder: (context) => const ProfileScreen()),
@@ -87,7 +87,7 @@ class _HomeScreenState extends State<HomeScreen> {
             return GridView.builder(
               padding: const EdgeInsets.all(12),
               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: 2, // duas colunas
+                crossAxisCount: 2,
                 childAspectRatio: 0.75,
                 crossAxisSpacing: 12,
                 mainAxisSpacing: 12,

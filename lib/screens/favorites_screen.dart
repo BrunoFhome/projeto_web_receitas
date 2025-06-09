@@ -172,7 +172,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
                     );
                   },
                 ),
-                // Remove button
+                
                 Positioned(
                   top: 8,
                   right: 8,

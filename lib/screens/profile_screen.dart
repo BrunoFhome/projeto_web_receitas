@@ -16,7 +16,7 @@ class ProfileScreen extends StatelessWidget {
         padding: const EdgeInsets.all(20),
         child: Column(
           children: [
-            // Profile Avatar Section
+           
             Container(
               padding: const EdgeInsets.all(20),
               decoration: BoxDecoration(
@@ -65,7 +65,7 @@ class ProfileScreen extends StatelessWidget {
             
             const SizedBox(height: 24),
             
-            // Statistics Section
+           
             Container(
               padding: const EdgeInsets.all(20),
               decoration: BoxDecoration(
@@ -106,7 +106,7 @@ class ProfileScreen extends StatelessWidget {
             
             const SizedBox(height: 24),
             
-            // Options Section
+           
             Container(
               decoration: BoxDecoration(
                 color: Colors.white,
@@ -171,7 +171,7 @@ class ProfileScreen extends StatelessWidget {
             
             const SizedBox(height: 24),
             
-            // Logout Button
+           
             SizedBox(
               width: double.infinity,
               child: ElevatedButton.icon(
